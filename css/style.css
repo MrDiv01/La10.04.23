@@ -1,0 +1,58 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    position: relative;
+    margin-left: 45%;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 10px #fff;
+}
+
+.item i {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 32px;
+    left: 37px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.item:hover {
+    transition: all 0.5s ease-in-out;
+}
+
+.item:hover i {
+    color: #fff ;
+    font-size: 40px;
+    left: 34px;
+    transition: all 0.5s ease-in-out;
+}
+
+.dropdown li{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+
+}
+.dropdown:hover li{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+
+}
+.dropdown:hover i{
+    rotate: 180deg;
+    transition: all 0.5s ease-in-out;
+}
+.dropdown i{
+    transition: all 0.5s ease-in-out;
+
+}
